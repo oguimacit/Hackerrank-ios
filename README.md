@@ -1,6 +1,9 @@
 # Hackerrank-ios
 Estudos Hackerrank, baseado no prompt de estudos.
 
+![App Hackerrank Skills](.github/sc01.png)
+
+
 A partir do prompt base, foi utilizado o Flow Chat para gerar 
 um App de exemplo, com cada tópico.
 Iniciando com 3 questões da parte básica, e evoluindo com mais questões 
