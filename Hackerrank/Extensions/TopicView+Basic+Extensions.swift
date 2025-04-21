@@ -7,6 +7,9 @@
 import SwiftUI
 
 extension TopicView {
+    
+    
+    
     func syntaxExamples() -> some View {
         Group {
             Text("1. Declaração de Variáveis:")
@@ -56,6 +59,12 @@ extension TopicView {
             Divider()
             Text("3. Set:")
             Text("var uniqueNumbers: Set = [1, 2, 3, 4, 4]")
+            Divider()
+            VStack {
+                Text("4. Array Exercício:")
+                Text("Uma seleção de 30 pessoas, pegar os 10 candidatos com melhores notas:")
+                CandidatesView()
+            }
         }
     }
     

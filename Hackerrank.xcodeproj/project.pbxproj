@@ -29,9 +29,33 @@
 		53B3B50D2DAF3A130088E3C2 /* HackerrankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerrankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		53B3C1B52DB6E27C0088E3C2 /* Exceptions for "Hackerrank" folder in "Hackerrank" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Double+Extensions.swift",
+			);
+			target = 53B3B4F22DAF3A120088E3C2 /* Hackerrank */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		53B3C1B62DB6E27C0088E3C2 /* Exceptions for "Hackerrank" folder in "Copy Bundle Resources" phase from "Hackerrank" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 53B3B4F12DAF3A120088E3C2 /* Resources */;
+			membershipExceptions = (
+				"Extensions/Double+Extensions.swift",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		53B3B4F52DAF3A120088E3C2 /* Hackerrank */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				53B3C1B52DB6E27C0088E3C2 /* Exceptions for "Hackerrank" folder in "Hackerrank" target */,
+				53B3C1B62DB6E27C0088E3C2 /* Exceptions for "Hackerrank" folder in "Copy Bundle Resources" phase from "Hackerrank" target */,
+			);
 			path = Hackerrank;
 			sourceTree = "<group>";
 		};
